@@ -6,19 +6,21 @@ echo "Welcome to the employee wage page"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3_ucempParttimeWage
 =======
 >>>>>>> 4_ucSwitchcase
 =======
 >>>>>>> 5_ucWagesforMonth
+=======
+>>>>>>> 8_ucdailyAlongeithTotalWage
 isPartTime=1;
 isFullTime=2;
 <<<<<<< HEAD
 maxHrsInMonth=10
 empRatePerHr=20
 numWorkingDays=20
-
 totalEmpHrs=0
 totalWorkingDays=0
 function getWorkingHours(){
