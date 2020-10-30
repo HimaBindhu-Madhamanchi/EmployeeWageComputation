@@ -2,6 +2,7 @@
 echo "Welcome to the employee wage page"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 isPartTime=1;
 isFullTime=2;
 maxHrsInMonth=10
@@ -29,6 +30,8 @@ function calDailyWages() {
 	wages=$(( $totalWorkHrs*$empRatePerHr ))
 	echo $wages;
 =======
+=======
+>>>>>>> 2_ucempDailyWage
 isPresent=1;
 randomCheck=$(( RANDOM%2 ));
 if [$isPresent -eq $randomCheck ];
