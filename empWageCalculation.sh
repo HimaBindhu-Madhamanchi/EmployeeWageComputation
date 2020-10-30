@@ -1,5 +1,6 @@
 #!/bin/bash -x
 echo "Welcome to the employee wage page"
+<<<<<<< HEAD
 isPartTime=1;
 isFullTime=2;
 maxHrsInMonth=10
@@ -44,3 +45,7 @@ echo "All Keys :"${!empDailyWages[@]}
 
 
 >>>>>>> 6_ucTotalWorkinghoursRday/month
+=======
+
+
+>>>>>>> 0_ucwelcomemessage
