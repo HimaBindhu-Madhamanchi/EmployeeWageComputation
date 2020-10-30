@@ -3,6 +3,9 @@ echo "Welcome to the employee wage page"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 3_ucempParttimeWage
 isPartTime=1;
 isFullTime=2;
 maxHrsInMonth=10
