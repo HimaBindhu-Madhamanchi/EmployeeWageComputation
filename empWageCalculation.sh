@@ -1,12 +1,10 @@
 #!/bin/bash -x
 echo "Welcome to the employee wage page"
-
 isPartTime=1;
 isFullTime=2;
 maxHrsInMonth=10
 empRatePerHr=20
 numWorkingDays=20
-
 totalEmpHrs=0
 totalWorkingDays=0
 function getWorkingHours(){
