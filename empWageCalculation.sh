@@ -35,7 +35,13 @@ do
 	totalEmpHrs=$(($totalEmpHrs+$empHrs))
 	empDailyWages[$totalWorkingDays]="$(calDailyWages $empHrs)"
 done
+<<<<<<< HEAD
 totalSalary="$(calDailyWages $totalEmpHrs)"
 echo "daily wages :"
     ${empDailyWages[@]}
 echo "All Keys :"${!empDailyWages[@]}
+=======
+
+
+
+>>>>>>> 6_ucTotalWorkinghoursRday/month
