@@ -4,8 +4,11 @@ echo "Welcome to the employee wage page"
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 3_ucempParttimeWage
+=======
+>>>>>>> 4_ucSwitchcase
 isPartTime=1;
 isFullTime=2;
 <<<<<<< HEAD
