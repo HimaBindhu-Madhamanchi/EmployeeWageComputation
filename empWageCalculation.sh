@@ -1,6 +1,5 @@
 #!/bin/bash -x
 echo "Welcome to the employee wage page"
-
 isPartTime=1;
 isFullTime=2;
 empRatePerHr=20;
