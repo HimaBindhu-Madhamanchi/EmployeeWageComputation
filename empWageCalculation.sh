@@ -1,6 +1,7 @@
 #!/bin/bash -x
 echo "Welcome to the employee wage page"
 <<<<<<< HEAD
+<<<<<<< HEAD
 isPartTime=1;
 isFullTime=2;
 maxHrsInMonth=10
@@ -27,6 +28,16 @@ function calDailyWages() {
 	totalWorkHrs=$1;
 	wages=$(( $totalWorkHrs*$empRatePerHr ))
 	echo $wages;
+=======
+isPresent=1;
+randomCheck=$(( RANDOM%2 ));
+if [$isPresent -eq $randomCheck ];
+then
+echo "Employee is Present";
+else
+echo "Employee is absent";
+fi
+>>>>>>> 1_ucempPresentOrAbsent
 
 while [[ $totalEmpHrs -lt $maxHrsInMonth && $totalWorkingDays -lt $numWorkingDays ]]
 do
