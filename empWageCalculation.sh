@@ -8,6 +8,7 @@ echo "Welcome to the employee wage page"
 >>>>>>> 3_ucempParttimeWage
 isPartTime=1;
 isFullTime=2;
+<<<<<<< HEAD
 maxHrsInMonth=10
 empRatePerHr=20
 numWorkingDays=20
@@ -38,6 +39,11 @@ function calDailyWages() {
 isPresent=1;
 randomCheck=$(( RANDOM%2 ));
 if [$isPresent -eq $randomCheck ];
+=======
+empRatePerHr=20;
+randomCheck=$(( RANDOM%3 ));
+if [ $isFullTime -eq $randomCheck ];
+>>>>>>> 3_ucempParttimeWage
 then
 echo "Employee is Present";
 else
